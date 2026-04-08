@@ -1,37 +1,27 @@
-SikuliX Documentation
-=====================
+SikuliX and Oculix Documentation
+================================
 
 .. sidebar:: Getting Started
 
    * Try the :doc:`Table of Contents <toc>` 
    * Look through the :ref:`genindex`
    * Use the :ref:`search`
-   * See `other people's questions <https://answers.launchpad.net/sikuli>`_
-   * Watch the `development on GitHub <https://github.com/RaiMan/SikuliX1>`_
-   * visit the `download page <https://raiman.github.io/SikuliX1/downloads.html>`_
+   * Watch the `development on GitHub <https://github.com/oculix-org/Oculix>`_
 
-Document maintained by `Raimund Hocke aka RaiMan <https://github.com/RaiMan>`_.
+SikuliX now is Oculix
+---------------------
 
-For possible bugs use `Launchpad <https://bugs.launchpad.net/sikuli>`_.
+RaiMan has finally stopped development in 2025.
+Great thanks to `Julien Mer <https://github.com/julienmerconsulting>`_, who has taken over the further dev as `Oculix <https://github.com/oculix-org>`_
 
-... or `ask a question <https://answers.launchpad.net/sikuli/+addquestion>`_.
+Document maintained by
+`from  2026: Julien Mer <https://github.com/julienmerconsulting>`_
+`until 2025: Raimund Hocke aka RaiMan <https://github.com/RaiMan>`_.
 
-... or for any question, possible bugs and enhancement requests use the `issue tracker on GitHub <https://github.com/RaiMan/SikuliX1/issues>`_ .
-
-If you want to hide some private information, feel free to contact **RaiMan** directly via the `email published on GitHub <https://github.com/RaiMan>`_
+For any question, possible bugs and enhancement requests use the `issue tracker on GitHub <https://github.com/oculix-org/Oculix/issues>`_ .
 
 How to use this document
 ------------------------
-
-.. note::
-
-    **For quickStart information start here:** `sikulix.com <http://sikulix.com>`_.
-
-.. note::
-
-    Documentation for older versions might not be available any longer without notice or might not work properly. Feel free to post a bug in case.
-
-    The documentation for the versions up to Sikuli X-1.0rc3 is still available `here <http://doc.sikuli.org>`_.
 
 SikuliX at the top supports **scripting via SikuliX IDE** (a basic script editor to load, edit, save and run scripts including the creation/organization of the needed images for your visual workflow).
 
@@ -40,8 +30,8 @@ Supported scripting languages:
  - **Python** (language level 2.7) supported by the `Jython interpreter <http://www.jython.org>`_. 
 
  - **Ruby** (language level 1.9/2.0) supported by the `JRuby interpreter <http://jruby.org>`_.
- 
- - **JavaScript** supported by the Java builtin scripting engine (still experimental)
+
+... and more
 
 If you are new to
 programming, you can still enjoy using SikuliX to automate simple repetitive
@@ -51,8 +41,7 @@ A good start might be to have a look at the :doc:`tutorials <tutorials/index>`.
 
 If you plan to write more
 complex scripts, which might even be structured in classes and modules, you have to dive into the `Python Language
-<http://www.jython.org/jythonbook/en/1.0/>`_, the `Ruby Language <http://docs.ruby-doc.com/docs/ProgrammingRuby>`_ 
-or `JavaScript <https://developer.mozilla.org/en-US/docs/Web/JavaScript>`_.
+<http://www.jython.org/jythonbook/en/1.0/>`_, the `Ruby Language <http://docs.ruby-doc.com/docs/ProgrammingRuby>`_.
 
 .. note::
 
@@ -66,8 +55,6 @@ or `JavaScript <https://developer.mozilla.org/en-US/docs/Web/JavaScript>`_.
     **... on Java usage:**
     The features in SikuliX at the bottom line are implemented with Java.
     So you might as well use SikuliX at this Java API level in your Java projects or other Java aware environments (:doc:`see how to <faq/030-java-dev>`). Though this documentation is targeted at the scripting people, it contains basic information about the Java level API as well at places, where there are major differences between the two API level.
-
-    Additionally you might **look through the JavaDocs**  (`latest version <https://raiman.github.io/SikuliX1/javadocs/index.html>`_).
 
 Each chapter in this documentaton briefly describes 
 a class or a group of methods regarding their basic features.

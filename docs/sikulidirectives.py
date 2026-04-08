@@ -71,12 +71,12 @@ class Parser:
       
       try:
          tokenize.tokenize(text.readline, self)
-      except (tokenize.TokenError, ex:
+      except tokenize.TokenError as ex:
          msg = ex[0]
          line = ex[1][0]
          self.out.write("<h3>ERROR: %s</h3>%s\n" % (
            msg, self.raw[self.lines[line]:]))
-         self.out.write('</font></pre>'))
+         self.out.write('</font></pre>')
 
       self.out.write(FOOTER)
 

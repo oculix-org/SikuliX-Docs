@@ -15,8 +15,8 @@ RaiMan has finally stopped development in 2025.
 Great thanks to `Julien Mer <https://github.com/julienmerconsulting>`_, who has taken over the further dev as `Oculix <https://github.com/oculix-org>`_
 
 Document maintained by
- - `from  2026: Julien Mer <https://github.com/julienmerconsulting>`_
- - `until 2025: Raimund Hocke aka RaiMan <https://github.com/RaiMan>`_.
+ - from  2026: `Julien Mer <https://github.com/julienmerconsulting>`_
+ - until 2025: `Raimund Hocke aka RaiMan <https://github.com/RaiMan>`_.
 
 For any question, possible bugs and enhancement requests use the `issue tracker on GitHub <https://github.com/oculix-org/Oculix/issues>`_ .
 
